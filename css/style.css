@@ -146,8 +146,6 @@ img {
         font-size: 1.2rem;
     }
 
-
-
     .container {
         width: 100%;
         display: flex;
@@ -170,5 +168,7 @@ img {
         }
     }
 
-
+    .why-us {
+        background-color: rgba(34, 34, 34, 1);
+    }
 }
