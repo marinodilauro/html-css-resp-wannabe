@@ -130,11 +130,11 @@ img {
  ************************************************/
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     h2 {
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 
     h3 {
@@ -152,16 +152,7 @@ img {
 
         .row {
             display: flex;
-            align-items: center;
-
-            .col {
-                padding: 0 1rem;
-
-                img {
-                    height: 100%;
-                    padding: 0 2.5rem;
-                }
-            }
+            justify-content: space-evenly;
         }
     }
 
