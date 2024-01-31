@@ -143,6 +143,57 @@ img {
     }
 
     p {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px;
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4rem;
+
+            .col {
+                width: 95%;
+
+                img {
+                    height: 100%;
+                    padding: 0 2.5rem;
+                }
+            }
+        }
+    }
+
+    .steps {
+        margin: 3rem 0 0 0;
+    }
+
+    .why-us {
+        background-color: rgba(34, 34, 34, 1);
+        margin: 0;
+        padding: 3rem 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    p {
         font-size: 1.2rem;
     }
 
@@ -153,9 +204,7 @@ img {
 
         .row {
             display: flex;
-            flex-direction: column;
             align-items: center;
-            gap: 4rem;
 
             .col {
                 width: 95%;
